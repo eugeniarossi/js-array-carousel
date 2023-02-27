@@ -21,7 +21,7 @@ CONTAINER
     justify-content: center;
 }
 
-.slider {
+#slider {
     background-color: cadetblue;
     height: 18.75rem;
     width: 100%;
@@ -30,7 +30,7 @@ CONTAINER
 
 .item {
     height: 100%;
-    /*display: none;*/
+    display: none;
 }
 
 img {
@@ -39,7 +39,7 @@ img {
     object-fit: cover;
 }
 
-.prev, .next {
+#prev, #next {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -51,11 +51,14 @@ img {
     line-height: 1.25rem;
 }
 
-.prev {
+#prev {
     top: .625rem;
 }
 
-.next {
+#next {
     bottom: .625rem;
 }
 
+.show {
+    display: block;
+}

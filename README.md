@@ -27,15 +27,15 @@ Al click delle frecce, oltre al cambio di immagine attiva, gestire il cambio di 
 ### MILESTONE 2
 1) Rimuovo il markup statico e imposto come default degli elementi item display none. 
 
-2) Definisco l'array delle immagini. 
+2) Definisco un array con le immagini. 
 
 3) Definisco delle variabili nello scope globale:  
     - una variabile slider in cui salvo lo slider del DOM
-    - una variabile item
+    - una variabile items
 
-4) Definisco un ciclo for, con variabile i < della lunghezza della lista immagini, in cui alla variabile item assegno la creazione di un elemento item nel DOM, contenente l'immagine a cui passo la variabile i.  
+4) Definisco un ciclo for, con variabile i < della lunghezza della lista immagini, in cui genero gli elementi item contenenti l'immagine a cui passo la variabile i, e li aggiungo ad items.  
 
-5) Aggiungo allo slider gli elementi item. E assegno al primo item [0] una classe show per renderlo visibile. 
+5) Aggiungo allo slider gli elementi item. E assegno al primo item una classe show per renderlo visibile. 
 
 ### MILESTONE 3 
 1) Nello scope globale definisco due variabili a cui assegno le frecce prev e next del DOM e una variabile active di default 0. 
@@ -45,7 +45,7 @@ Al click delle frecce, oltre al cambio di immagine attiva, gestire il cambio di 
 2) Definisco una lista di tutti gli item. 
 
 3) Aggiungo un evento onclick alla freccia next e stabilisco delle condizioni: 
-    Se active è minore della lunghezza della lista items - 1, 
+    Se active è minore della lunghezza della lista degli items - 1, 
         - rimuovo la classe show all'item a cui passo la variabile active
         - incremento active
         - assegno la classe show all'item a cui passo la variabile active
