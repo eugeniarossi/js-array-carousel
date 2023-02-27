@@ -52,3 +52,7 @@ Al click delle frecce, oltre al cambio di immagine attiva, gestire il cambio di 
     Se active è maggiore di 0,
         - svolgo le stesse operazioni dell'evento next, ma decremento la variabile active
 
+### BONUS 1 
+1) All'interno dell'evento onclick della freccia next definisco nelle condizioni un else in cui azzero la variabile active.
+
+2) All'interno dell'evento onclick della freccia prev definisco nelle condizioni un else in cui assegno alla variabile active la lunghezza della itemsList - 1.

@@ -33,6 +33,10 @@ next.addEventListener('click', function() {
         itemsList[active].classList.remove('show');
         active++;
         itemsList[active].classList.add('show');
+    } else {
+        itemsList[active].classList.remove('show');
+        active = 0;
+        itemsList[active].classList.add('show');
     }
 });
 
@@ -41,6 +45,10 @@ prev.addEventListener('click', function() {
     if (active > 0) {
         itemsList[active].classList.remove('show');
         active--;
+        itemsList[active].classList.add('show');
+    } else {
+        itemsList[active].classList.remove('show');
+        active = itemsList.length - 1;
         itemsList[active].classList.add('show');
     }
 });
