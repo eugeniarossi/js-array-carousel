@@ -49,6 +49,7 @@ img {
     border-radius: 50%;
     text-align: center;
     line-height: 1.25rem;
+    z-index: 5;
 }
 
 #prev {
