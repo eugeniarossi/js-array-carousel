@@ -17,7 +17,6 @@ slider.innerHTML += items;
 // Assegno al primo item la classe show 
 //document.querySelector('.item').classList.add('show');
 
-
 // Assegno le frecce prev e next a due variabili
 const prev = document.getElementById('prev');
 const next = document.getElementById('next');
