@@ -15,4 +15,15 @@ for (let i = 0; i < images.length; i++) {
 // Aggiungo allo slider gli elementi item
 slider.innerHTML += items;
 // Assegno al primo item la classe show 
-document.querySelector('.item').classList.add('show');
+//document.querySelector('.item').classList.add('show');
+
+
+// Assegno le frecce prev e next a due variabili
+const prev = document.getElementById('prev');
+const next = document.getElementById('next');
+// Definisco la variabile active 
+let active = 0;
+
+
+
+

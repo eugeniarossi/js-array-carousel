@@ -40,7 +40,7 @@ Al click delle frecce, oltre al cambio di immagine attiva, gestire il cambio di 
 ### MILESTONE 3 
 1) Nello scope globale definisco due variabili a cui assegno le frecce prev e next del DOM e una variabile active di default 0. 
 
-2) Passo la variabile active [active] all'elemento a cui ho aggiunto la classe show. 
+2) Definisco la variabile item. Aggiungo la classe show ad item[active].  
 
 2) Definisco una lista di tutti gli item. 
 
