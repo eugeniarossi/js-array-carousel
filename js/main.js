@@ -23,7 +23,25 @@ const prev = document.getElementById('prev');
 const next = document.getElementById('next');
 // Definisco la variabile active 
 let active = 0;
+// Definisco la variabile itemsList
+const itemsList = document.querySelectorAll('.item');
+// Aggiungo la classe show al primo item
+itemsList[active].classList.add('show');
 
+// Aggiungo evento onclik alla freccia next
+next.addEventListener('click', function() {
+    if (active < itemsList.length - 1) {
+        itemsList[active].classList.remove('show');
+        active++;
+        itemsList[active].classList.add('show');
+    }
+});
 
-
-
+// Aggiungo evento onclik alla freccia prev
+prev.addEventListener('click', function() {
+    if (active > 0) {
+        itemsList[active].classList.remove('show');
+        active--;
+        itemsList[active].classList.add('show');
+    }
+});
