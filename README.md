@@ -58,12 +58,12 @@ Al click delle frecce, oltre al cambio di immagine attiva, gestire il cambio di 
 2) All'interno dell'evento onclick della freccia prev definisco nelle condizioni un else in cui assegno alla variabile active la lunghezza della itemsList - 1.
 
 ### BONUS 2
-1) Costruisco le miniature in maniera statica con un layer di opacità scura di default e definisco una classe per rimuovere il layer e per aggiungere il bordo colorato. 
+1) Costruisco le miniature in maniera statica e un div layer di opacità scura. Definisco una classe per aggiungere il bordo colorato. 
 
 2) Elimino le miniature statiche e le genero in javascript con il ciclo for. 
 
 3) Creo una lista delle miniature. 
 
-4) Assegno la classe per la rimozione del layer alla prima miniatura utilizzando la variabile active.
+4) Rimuovo la classe overlay per eliminare il layer dalla prima miniatura utilizzando la variabile active e assegno la classe per il bordo colorato.
 
 5) All'interno degli eventi onclick assegno la classe per la rimozione del layer alla miniatura attiva utilizzando la variabile active.
