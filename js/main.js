@@ -27,7 +27,7 @@ const itemsList = document.querySelectorAll('.item');
 // Aggiungo la classe show al primo item
 itemsList[active].classList.add('show');
 
-// Aggiungo evento onclik alla freccia next
+// Aggiungo evento onclick alla freccia next
 next.addEventListener('click', function() {
     if (active < itemsList.length - 1) {
         itemsList[active].classList.remove('show');
@@ -40,7 +40,7 @@ next.addEventListener('click', function() {
     }
 });
 
-// Aggiungo evento onclik alla freccia prev
+// Aggiungo evento onclick alla freccia prev
 prev.addEventListener('click', function() {
     if (active > 0) {
         itemsList[active].classList.remove('show');
