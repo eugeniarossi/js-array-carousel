@@ -50,9 +50,20 @@ Al click delle frecce, oltre al cambio di immagine attiva, gestire il cambio di 
 
 4) Aggiungo un evento onclick alla freccia prev stabilendo condizioni diverse:
     Se active è maggiore di 0,
-        - svolgo le stesse operazioni dell'evento next, ma decremento la variabile active
+        - svolgo le stesse operazioni dell'evento next, ma decremento la variabile active.
 
 ### BONUS 1 
 1) All'interno dell'evento onclick della freccia next definisco nelle condizioni un else in cui azzero la variabile active.
 
 2) All'interno dell'evento onclick della freccia prev definisco nelle condizioni un else in cui assegno alla variabile active la lunghezza della itemsList - 1.
+
+### BONUS 2
+1) Costruisco le miniature in maniera statica con un layer di opacità scura di default e definisco una classe per rimuovere il layer e per aggiungere il bordo colorato. 
+
+2) Elimino le miniature statiche e le genero in javascript con il ciclo for. 
+
+3) Creo una lista delle miniature. 
+
+4) Assegno la classe per la rimozione del layer alla prima miniatura utilizzando la variabile active.
+
+5) All'interno degli eventi onclick assegno la classe per la rimozione del layer alla miniatura attiva utilizzando la variabile active.

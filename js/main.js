@@ -52,3 +52,4 @@ prev.addEventListener('click', function() {
         itemsList[active].classList.add('show');
     }
 });
+
